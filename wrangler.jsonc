@@ -1,0 +1,10 @@
+{
+  // lab.ai-andromeda.com: a research page that measures which surfaces bring AI agents.
+  // Publish: npx wrangler deploy   (stats: /stats?key=$STATS_KEY)
+  "name": "andromeda-agent-lab",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "routes": [{ "pattern": "lab.ai-andromeda.com", "custom_domain": true }],
+  "d1_databases": [{ "binding": "DB", "database_name": "agent-lab", "database_id": "" }]
+}

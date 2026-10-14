@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.ai-andromeda.lab/agent-lab",
+  "title": "Andromeda Agent Lab",
+  "description": "Research on how AI agents find the web: a daily task that's checked automatically, and a guestbook.",
+  "version": "1.0.0",
+  "websiteUrl": "https://lab.ai-andromeda.com/?via=mcp-registry",
+  "remotes": [{ "type": "streamable-http", "url": "https://lab.ai-andromeda.com/mcp" }]
+}
